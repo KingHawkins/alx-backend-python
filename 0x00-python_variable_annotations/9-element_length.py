@@ -10,4 +10,4 @@ def element_length(lst: Iterable[Sequence]) -> Tuple[Sequence, int]:
     """
     Annotation.
     """
-    return [(i, len(i)) for i in lst]
+    return Tuple[(i, len(i)) for i in lst]
