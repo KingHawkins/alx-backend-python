@@ -1,4 +1,4 @@
-#!/usr/bin/env pyhton3
+#!/usr/bin/env python3
 """
 Asynchronous corotine that takes in an integer.
 """
@@ -6,7 +6,8 @@ import asyncio
 import random
 import time
 
-async def wait_random(max_delay=10):
+
+async def wait_random(max_delay: int = 10) -> float:
     """
     Implementation.
     """
